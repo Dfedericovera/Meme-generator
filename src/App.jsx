@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import React from "react"
 import Header from "./components/Header"
+import Meme from "./components/Meme"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
     <Header />
+    <Meme />
     </>
   )
 }
